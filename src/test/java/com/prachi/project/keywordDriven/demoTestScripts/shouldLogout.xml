@@ -1,0 +1,12 @@
+<uiTestCase>
+        <actionTag>
+            <type>click</type>
+            <objectType>xpath</objectType>
+            <value>usernameDropdown_xpath</value>
+        </actionTag>
+        <actionTag>
+            <type>click</type>
+            <objectType>id</objectType>
+            <value>demoLogout_id</value>
+        </actionTag>
+</uiTestCase>

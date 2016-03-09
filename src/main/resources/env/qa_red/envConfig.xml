@@ -1,0 +1,6 @@
+<envConfig>
+    <baseUrl>http://www.thomas-bayer.com</baseUrl>
+    <uiUrl>http://zero.webappsecurity.com/</uiUrl>
+    <username>username</username>
+    <password>password</password>
+</envConfig>

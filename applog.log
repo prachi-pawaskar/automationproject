@@ -1,0 +1,144 @@
+2016-03-09 17:15:06,476 - com.prachi.project.keywordDriven.lib.base - INFO - Env running on: qa_red
+2016-03-09 17:15:06,480 - com.prachi.project.keywordDriven.lib.base - INFO - UI running on: firefox
+2016-03-09 17:15:06,480 - com.prachi.project.keywordDriven.lib.base - INFO - Active Tag: regression
+2016-03-09 17:15:06,480 - com.prachi.project.keywordDriven.lib.base - INFO - Site locale running on: com
+2016-03-09 17:15:06,481 - com.prachi.project.keywordDriven.lib.base - INFO - Env file in use:/env/qa_red/envConfig.xml
+2016-03-09 17:15:06,481 - com.prachi.project.keywordDriven.lib.base - INFO - Reading envConfig.xml absolute path: /D:/PP_Work/Lets%20Go!/automationproject/target/classes/env/qa_red/envConfig.xml
+2016-03-09 17:15:06,545 - com.prachi.project.keywordDriven.lib.base - INFO - Reading API base URL: http://www.thomas-bayer.com
+2016-03-09 17:15:06,545 - com.prachi.project.keywordDriven.lib.base - INFO - Reading UI URL: http://zero.webappsecurity.com/
+2016-03-09 17:15:06,546 - com.prachi.project.keywordDriven.lib.base - INFO - Reading username: username
+2016-03-09 17:15:06,546 - com.prachi.project.keywordDriven.lib.base - INFO - Reading password: password
+2016-03-09 17:15:06,555 - com.prachi.project.keywordDriven.lib.uiLogicBase - INFO - Starting web driver
+2016-03-09 17:15:06,556 - com.prachi.project.keywordDriven.lib.uiLogicBase - INFO - UI test running on Firefox browser.
+2016-03-09 17:15:13,482 - com.prachi.project.keywordDriven.lib.base - INFO - Test scripts mentioned in CSV file: active, bat, shouldCheckLoanTransactions
+2016-03-09 17:15:13,484 - com.prachi.project.keywordDriven.lib.base - INFO - Following are ACTIVE test scripts to be executed : [shouldCheckLoanTransactions]
+2016-03-09 17:15:13,504 - com.prachi.project.keywordDriven.runDemoTestScripts - INFO - Running test script: shouldCheckLoanTransactions
+2016-03-09 17:15:22,028 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script relative path: src/test/java/com/prachi/project/keywordDriven/demoTestScripts/shouldCheckLoanTransactions.xml
+2016-03-09 17:15:22,030 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script obsolete path: D:\PP_Work\Lets Go!\automationproject\src\test\java\com\prachi\project\keywordDriven\demoTestScripts\shouldCheckLoanTransactions.xml
+2016-03-09 17:15:22,033 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: assertTag
+2016-03-09 17:15:22,033 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: visible
+2016-03-09 17:15:22,033 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: name
+2016-03-09 17:15:22,034 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: searchTerm
+2016-03-09 17:15:22,112 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Expected: 'searchTerm' to be visible
+2016-03-09 17:15:22,113 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Actual: 'searchTerm' is visible
+2016-03-09 17:15:22,113 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Passed: Element visible
+2016-03-09 17:15:22,113 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:15:22,113 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: runTestScript
+2016-03-09 17:15:22,113 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: demoTestScripts
+2016-03-09 17:15:22,113 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: shouldLogin
+2016-03-09 17:15:22,114 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script relative path: src/test/java/com/prachi/project/keywordDriven/demoTestScripts/shouldLogin.xml
+2016-03-09 17:15:22,114 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script obsolete path: D:\PP_Work\Lets Go!\automationproject\src\test\java\com\prachi\project\keywordDriven\demoTestScripts\shouldLogin.xml
+2016-03-09 17:15:22,117 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:15:22,117 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: click
+2016-03-09 17:15:22,118 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: id
+2016-03-09 17:15:22,118 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: signin_button
+2016-03-09 17:15:23,053 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Performing Action: Clicking 'signin_button' of type 'id'
+2016-03-09 17:15:25,053 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: assertTag
+2016-03-09 17:15:25,053 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: visible
+2016-03-09 17:15:25,053 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: class
+2016-03-09 17:15:25,053 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: btn-primary
+2016-03-09 17:15:25,085 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Expected: 'btn-primary' to be visible
+2016-03-09 17:15:25,085 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Actual: 'btn-primary' is visible
+2016-03-09 17:15:25,085 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Passed: Element visible
+2016-03-09 17:15:25,086 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:15:25,086 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: sendkeys
+2016-03-09 17:15:25,086 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: id
+2016-03-09 17:15:25,086 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: user_login
+2016-03-09 17:15:25,086 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Text: config_username
+2016-03-09 17:15:25,148 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Performing Action: Entering 'username'  for 'user_login'
+2016-03-09 17:15:27,148 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:15:27,148 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: sendkeys
+2016-03-09 17:15:27,148 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: id
+2016-03-09 17:15:27,149 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: user_password
+2016-03-09 17:15:27,149 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Text: config_password
+2016-03-09 17:15:27,224 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Performing Action: Entering 'password'  for 'user_password'
+2016-03-09 17:15:29,225 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:15:29,225 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: click
+2016-03-09 17:15:29,225 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: class
+2016-03-09 17:15:29,225 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: btn-primary
+2016-03-09 17:15:35,335 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Performing Action: Clicking 'btn-primary' of type 'class'
+2016-03-09 17:15:37,336 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: assertTag
+2016-03-09 17:15:37,336 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: title
+2016-03-09 17:15:37,336 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: title
+2016-03-09 17:15:37,337 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Picking up value from lang repo: Zero - Account Summary
+2016-03-09 17:15:37,370 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Expected title: Zero - Account Summary
+2016-03-09 17:15:37,370 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Actual title: Zero - Account Summary
+2016-03-09 17:15:37,370 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Passed: Title do match
+2016-03-09 17:15:39,372 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:15:39,372 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: click
+2016-03-09 17:15:39,372 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: id
+2016-03-09 17:15:39,372 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: account_activity_tab
+2016-03-09 17:15:44,052 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Performing Action: Clicking 'account_activity_tab' of type 'id'
+2016-03-09 17:15:46,052 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:15:46,052 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: selectDropdown
+2016-03-09 17:15:46,052 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: id
+2016-03-09 17:15:46,052 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: aa_accountId
+2016-03-09 17:15:46,053 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Picking up value from lang repo: Loan1
+2016-03-09 17:15:46,053 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Text: Loan1
+2016-03-09 17:16:16,180 - com.prachi.project.keywordDriven.lib.readTestCase - ERROR - org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Loan1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'INMUBLBI0010', ip: '10.199.199.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-03-09 17:16:16,184 - com.prachi.project.keywordDriven.lib.readTestCase - ERROR - Error in selectDropdown Action Tag: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Loan1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'INMUBLBI0010', ip: '10.199.199.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+2016-03-09 17:16:18,356 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:16:18,356 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: wait
+2016-03-09 17:16:18,356 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: wait
+2016-03-09 17:16:18,356 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: 10
+2016-03-09 17:16:28,357 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Waiting for 10 seconds.
+2016-03-09 17:16:30,357 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:16:30,357 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: runTestScript
+2016-03-09 17:16:30,357 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: demoTestScripts
+2016-03-09 17:16:30,357 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: shouldLogout
+2016-03-09 17:16:30,358 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script relative path: src/test/java/com/prachi/project/keywordDriven/demoTestScripts/shouldLogout.xml
+2016-03-09 17:16:30,358 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script obsolete path: D:\PP_Work\Lets Go!\automationproject\src\test\java\com\prachi\project\keywordDriven\demoTestScripts\shouldLogout.xml
+2016-03-09 17:16:30,361 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:16:30,361 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: click
+2016-03-09 17:16:30,361 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: xpath
+2016-03-09 17:16:30,361 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: //li[3]/a[@class="dropdown-toggle"]
+2016-03-09 17:16:30,465 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Performing Action: Clicking '//li[3]/a[@class="dropdown-toggle"]' of type 'xpath'
+2016-03-09 17:16:32,466 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag name: actionTag
+2016-03-09 17:16:32,466 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Type: click
+2016-03-09 17:16:32,466 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - ObjectType: id
+2016-03-09 17:16:32,467 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Value: logout_link
+2016-03-09 17:16:35,205 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Performing Action: Clicking 'logout_link' of type 'id'
+2016-03-09 17:16:42,972 - com.prachi.project.keywordDriven.lib.base - INFO - Test scripts mentioned in CSV file: active, bat, simpleFeedApi
+2016-03-09 17:16:42,972 - com.prachi.project.keywordDriven.lib.base - INFO - Test scripts mentioned in CSV file: active, sanity, samplePostApi
+2016-03-09 17:16:42,972 - com.prachi.project.keywordDriven.lib.base - INFO - Following are ACTIVE test scripts to be executed : [simpleFeedApi, samplePostApi]
+2016-03-09 17:16:42,973 - com.prachi.project.keywordDriven.runApiTestScripts - INFO - Running test script: simpleFeedApi
+2016-03-09 17:16:42,973 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script relative path: src/test/java/com/prachi/project/keywordDriven/apiTestScripts/simpleFeedApi.xml
+2016-03-09 17:16:42,973 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script obsolete path: D:\PP_Work\Lets Go!\automationproject\src\test\java\com\prachi\project\keywordDriven\apiTestScripts\simpleFeedApi.xml
+2016-03-09 17:16:42,999 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Reading method type: get
+2016-03-09 17:16:43,000 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Reading API URI: /sqlrest/CUSTOMER/as
+2016-03-09 17:16:43,000 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Reading assertStatus: 404
+2016-03-09 17:16:43,238 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - Hitting API: http://www.thomas-bayer.com/sqlrest/CUSTOMER/as
+2016-03-09 17:16:44,571 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - Apache status is not 200-Ok
+2016-03-09 17:16:44,575 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - API apache status: 404
+2016-03-09 17:16:44,575 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - API response: <html><head><title>Apache Tomcat/7.0.52 (Ubuntu) - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - Resource not found</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>Resource not found</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.52 (Ubuntu)</h3></body></html>
+2016-03-09 17:16:44,575 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Following assertion active: Checking apache status
+2016-03-09 17:16:44,575 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Expected: 404
+2016-03-09 17:16:44,575 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Actual: 404
+2016-03-09 17:16:44,575 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Passed: Apache status do match
+2016-03-09 17:16:44,575 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag: assertResponse not present hence no API response check active!
+2016-03-09 17:16:44,576 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag: assertResponseMultiple not present hence no multiple response asserts active!
+2016-03-09 17:16:45,959 - com.prachi.project.keywordDriven.runApiTestScripts - INFO - Running test script: samplePostApi
+2016-03-09 17:16:45,960 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script relative path: src/test/java/com/prachi/project/keywordDriven/apiTestScripts/samplePostApi.xml
+2016-03-09 17:16:45,960 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Script obsolete path: D:\PP_Work\Lets Go!\automationproject\src\test\java\com\prachi\project\keywordDriven\apiTestScripts\samplePostApi.xml
+2016-03-09 17:16:45,975 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Reading method type: post
+2016-03-09 17:16:45,976 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Reading API URI: /sqlrest/CUSTOMER/
+2016-03-09 17:16:45,976 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Reading assertStatus: 400
+2016-03-09 17:16:45,976 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Reading post data type: json
+2016-03-09 17:16:46,109 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - Hitting API: http://www.thomas-bayer.com/sqlrest/CUSTOMER/
+2016-03-09 17:16:46,771 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - Apache status is not 200-Ok
+2016-03-09 17:16:46,775 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - API apache status: 400
+2016-03-09 17:16:46,775 - com.prachi.project.keywordDriven.lib.apiLogicBase - INFO - API response: <html><head><title>Apache Tomcat/7.0.52 (Ubuntu) - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.52 (Ubuntu)</h3></body></html>
+2016-03-09 17:16:46,782 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Following assertion active: Checking apache status
+2016-03-09 17:16:46,782 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Expected: 400
+2016-03-09 17:16:46,783 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Actual: 400
+2016-03-09 17:16:46,783 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Test Passed: Apache status do match
+2016-03-09 17:16:46,783 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag: assertResponse not present hence no API response check active!
+2016-03-09 17:16:46,783 - com.prachi.project.keywordDriven.lib.readTestCase - INFO - Tag: assertResponseMultiple not present hence no multiple response asserts active!

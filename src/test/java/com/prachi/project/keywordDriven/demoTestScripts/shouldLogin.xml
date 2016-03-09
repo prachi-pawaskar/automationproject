@@ -1,0 +1,34 @@
+<uiTestCase>
+    <actionTag>
+        <type>click</type>
+        <objectType>id</objectType>
+        <value>sigin_id</value>
+    </actionTag>
+    <assertTag>
+        <type>visible</type>
+        <objectType>class</objectType>
+        <value>siginButton_class</value>
+    </assertTag>
+    <actionTag>
+        <type>sendkeys</type>
+        <objectType>id</objectType>
+        <value>demousername_id</value>
+        <text>config_username</text>
+    </actionTag>
+    <actionTag>
+        <type>sendkeys</type>
+        <objectType>id</objectType>
+        <value>demopassword_id</value>
+        <text>config_password</text>
+    </actionTag>
+    <actionTag>
+        <type>click</type>
+        <objectType>class</objectType>
+        <value>siginButton_class</value>
+    </actionTag>
+    <assertTag>
+        <type>title</type>
+        <objectType>title</objectType>
+        <value>loggedIn_title</value>
+    </assertTag>
+</uiTestCase>

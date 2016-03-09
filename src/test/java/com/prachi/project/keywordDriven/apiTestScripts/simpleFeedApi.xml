@@ -1,0 +1,5 @@
+<apiCase>
+    <methodType>get</methodType>
+    <uri>/sqlrest/CUSTOMER/as</uri>
+    <assertStatus>404</assertStatus>
+</apiCase>

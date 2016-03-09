@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.prachi.project" >
+    <parameter name="env" value="qa_red"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="tag" value="regression"/>
+    <parameter name="siteLocale" value="com"/>
+    <test name="runClass">
+        <classes>
+            <class name="com.prachi.project.keywordDriven.runDemoTestScripts" />
+            <class name="com.prachi.project.keywordDriven.runApiTestScripts" />
+        </classes>
+    </test>
+</suite>

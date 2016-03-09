@@ -1,0 +1,8 @@
+<CUSTOMER>
+    <!--Increment the ID for very run, as its sample data-->
+    <IDI>90</IDI>
+    <FIRSTNAME>Sylvia</FIRSTNAME>
+    <LASTNAME>Fuller</LASTNAME>
+    <STREET>158 - 20th Ave.</STREET>
+    <CITY>Paris</CITY>
+</CUSTOMER>

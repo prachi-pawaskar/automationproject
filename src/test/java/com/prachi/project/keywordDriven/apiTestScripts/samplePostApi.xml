@@ -1,0 +1,7 @@
+<apiCase>
+    <methodType>post</methodType>
+    <postType>json</postType>
+    <uri>/sqlrest/CUSTOMER/</uri>
+    <requestFile>samplePost</requestFile>
+    <assertStatus>400</assertStatus>
+</apiCase>
